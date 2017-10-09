@@ -1,0 +1,2 @@
+# GamelolPropertyServer
+MOBA
