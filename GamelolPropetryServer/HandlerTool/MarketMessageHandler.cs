@@ -7,6 +7,7 @@ using AceNetFrame.ace;
 using AceNetFrame.ace.auto;
 using SerializableDataMessage;
 using GamelolPropetryServer.Database;
+using LitJson;
 namespace GamelolPropetryServer.HandlerTool
 {
     public class MarketMessageHandler : HanderInterface
@@ -35,7 +36,7 @@ namespace GamelolPropetryServer.HandlerTool
         /// <param name="token"></param>
         /// <param name="message"></param>
         public void BuyGoodFromMarket(UserToken token,SocketModel message) {
-            MarketMessage marketMessage = message.getMessage<MarketMessage>();
+            MarketMessage marketMessage =JsonMapper.ToObject<MarketMessage>(message.getMessage<string>());
             switch (marketMessage.goodType) {
                 case GoodType.INSCRIPTION:
                     new BaseMessageDatabase().UpdatePlayerReduceInscriptionnumber(message.type, marketMessage.goodPrice);
