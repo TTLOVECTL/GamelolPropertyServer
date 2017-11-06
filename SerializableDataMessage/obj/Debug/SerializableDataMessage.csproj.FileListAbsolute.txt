@@ -1,0 +1,5 @@
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\bin\Debug\SerializableDataMessage.dll
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\bin\Debug\SerializableDataMessage.pdb
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.csprojResolveAssemblyReference.cache
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.dll
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.pdb

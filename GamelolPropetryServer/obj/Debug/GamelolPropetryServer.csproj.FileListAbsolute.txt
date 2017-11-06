@@ -1,0 +1,10 @@
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\obj\Debug\GamelolPropetryServer.csprojResolveAssemblyReference.cache
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\GamelolPropetryServer.exe.config
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\GamelolPropetryServer.exe
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\GamelolPropetryServer.pdb
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\LitJson.dll
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\MySql.Data.dll
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\SerializableDataMessage.dll
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\bin\Debug\SerializableDataMessage.pdb
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\obj\Debug\GamelolPropetryServer.exe
+C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\GamelolPropetryServer\obj\Debug\GamelolPropetryServer.pdb

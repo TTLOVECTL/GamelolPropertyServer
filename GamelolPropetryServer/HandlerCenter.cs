@@ -18,7 +18,7 @@ namespace GamelolPropetryServer
         }
         public override void ClientClose(UserToken token, string error)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public override void MessageRecive(UserToken token, object message)

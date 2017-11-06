@@ -19,11 +19,11 @@ namespace GamelolPropetryServer.HandlerTool
 
         public void MessageRecevie(UserToken token, SocketModel message)
         {
-            switch (message.command) {
-                case 0:
+            switch ((MarketCommand)message.command) {
+                case MarketCommand.BUY_COMMAND:
                     BuyGoodFromMarket(token, message);
                     break;
-                case 1:
+                case MarketCommand.SELL_COMMAND:
                     SellGoodToMarket(token, message);
                     break;
 
@@ -36,8 +36,9 @@ namespace GamelolPropetryServer.HandlerTool
         /// <param name="token"></param>
         /// <param name="message"></param>
         public void BuyGoodFromMarket(UserToken token,SocketModel message) {
+            Console.WriteLine(message.getMessage<string>());
             MarketMessage marketMessage =JsonMapper.ToObject<MarketMessage>(message.getMessage<string>());
-            switch (marketMessage.goodType) {
+            switch ((GoodType)marketMessage.goodType) {
                 case GoodType.INSCRIPTION:
                     new BaseMessageDatabase().UpdatePlayerReduceInscriptionnumber(message.type, marketMessage.goodPrice);
                     new InscriptionMessageDatabase().UpdatePlayerInscription(message.type,marketMessage.goodId,marketMessage.goodNumber);
@@ -56,17 +57,16 @@ namespace GamelolPropetryServer.HandlerTool
         /// <param name="token"></param>
         /// <param name="message"></param>
         public void SellGoodToMarket(UserToken token, SocketModel message) {
-            MarketMessage marketMessage = message.getMessage<MarketMessage>();
+            MarketMessage marketMessage = JsonMapper.ToObject<MarketMessage>(message.getMessage<string>());
             switch (marketMessage.goodType)
             {
                 case GoodType.INSCRIPTION:
                     new BaseMessageDatabase().UpdatePlayerAddInscriptionnumber(message.type, marketMessage.goodPrice);
-                    new InscriptionMessageDatabase().UpdatePlayerInscriptionNumber(message.type, marketMessage.goodId, marketMessage.goodNumber);
+                    new InscriptionMessageDatabase().UpdatePlayerInscriptionNumber(message.type, marketMessage.goodId, -marketMessage.goodNumber);
                     message.message = true;
                     SendtoClient.write(token, message);
                     break;
                 case GoodType.HERO:
-
                     break;
             }
         }

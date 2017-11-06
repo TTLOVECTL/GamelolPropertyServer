@@ -366,7 +366,7 @@ namespace GamelolPropetryServer.Database
         /// <param name="inscriptionnumber"></param>
         public void UpdatePlayerAddInscriptionnumber(int playerId, int inscriptionnumber)
         {
-            string update_sql = "update tb_playerbasemessage set inscriptionnumber+=" + inscriptionnumber + " where playerid =" + playerId.ToString();
+            string update_sql = "update tb_playerbasemessage set inscriptionnumber=inscriptionnumber+" + inscriptionnumber + " where playerid =" + playerId.ToString();
             MySqlCommand cmd = new MySqlCommand(update_sql, mySqlConnection);
             try
             {
@@ -391,7 +391,7 @@ namespace GamelolPropetryServer.Database
         /// <param name="inscriptionnumber"></param>
         public void UpdatePlayerReduceInscriptionnumber(int playerId, int inscriptionnumber)
         {
-            string update_sql = "update tb_playerbasemessage set inscriptionnumber-=" + inscriptionnumber + " where playerid =" + playerId.ToString();
+            string update_sql = "update tb_playerbasemessage set inscriptionnumber=inscriptionnumber-" + inscriptionnumber + " where playerid =" + playerId.ToString();
             MySqlCommand cmd = new MySqlCommand(update_sql, mySqlConnection);
             try
             {
