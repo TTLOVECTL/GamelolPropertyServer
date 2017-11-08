@@ -13,6 +13,8 @@ namespace GamelolPropetryServer
     {
         private HanderInterface marketMessageHandler;
 
+
+
         public HandlerCenter() {
             marketMessageHandler = new MarketMessageHandler();
         }

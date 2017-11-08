@@ -3,3 +3,9 @@ C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMes
 C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.csprojResolveAssemblyReference.cache
 C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.dll
 C:\Users\TaoTing\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.pdb
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\bin\Debug\SerializableDataMessage.dll
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\bin\Debug\SerializableDataMessage.pdb
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.csprojResolveAssemblyReference.cache
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.csproj.CoreCompileInputs.cache
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.dll
+C:\Users\TT\Desktop\GamelolServer\GamelolPropertyServer\SerializableDataMessage\obj\Debug\SerializableDataMessage.pdb
